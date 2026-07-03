@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - QR Mate (Naveen Labs)</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        header {
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #111;
+            margin-bottom: 10px;
+            font-size: 2rem;
+        }
+        h2 {
+            color: #222;
+            font-size: 1.4rem;
+            margin-top: 30px;
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 5px;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: #666;
+            margin-top: 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            word-break: break-all;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .company-name {
+            font-weight: bold;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">QR Mate — Developed and published by Naveen Labs</p>
+    </header>
+
+    <main>
+        <p>This Privacy Policy explains how the application uses permissions and handles information when you use the app.</p>
+
+        <section>
+            <h2>Information We Collect</h2>
+            <p>QR Mate does not require account registration and does not collect personally identifiable information for account creation.</p>
+        </section>
+
+        <section>
+            <h2>Camera Permission</h2>
+            <p>The Camera permission is used to scan QR codes and barcodes. Camera access is only used when users choose to use scanning functionality.</p>
+        </section>
+
+        <section>
+            <h2>Contacts Permission</h2>
+            <p>The application may request access to contacts for the following features:</p>
+            <ul>
+                <li>Create contact QR codes from existing contacts.</li>
+                <li>Save scanned contact information into the device contact list.</li>
+            </ul>
+            <p>Contact information is processed locally on the device and is not transmitted to Naveen Labs servers.</p>
+        </section>
+
+        <section>
+            <h2>Storage and Local Data</h2>
+            <p>The application may store generated QR codes, exported images, application settings, and scan history locally on the user's device.</p>
+        </section>
+
+        <section>
+            <h2>Advertising</h2>
+            <p>QR Mate uses Google AdMob to display advertisements.</p>
+            <p>Google and its partners may collect device identifiers, advertising identifiers, diagnostics information, and usage information according to their own privacy policies.</p>
+            <p><strong>Google Privacy Policy:</strong><br>
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></p>
+        </section>
+
+        <section>
+            <h2>Data Sharing</h2>
+            <p>Naveen Labs does not sell personal information.</p>
+            <p>The application does not transmit contact information to Naveen Labs servers.</p>
+            <p>Third-party services such as Google AdMob may process information according to their own privacy policies.</p>
+        </section>
+
+        <section>
+            <h2>Data Security</h2>
+            <p>The application is designed to process QR codes, barcode information, and contact information locally on the device whenever possible.</p>
+        </section>
+
+        <section>
+            <h2>Children's Privacy</h2>
+            <p>The application is not directed toward children under the age of 13.</p>
+        </section>
+
+        <section>
+            <h2>Changes to This Privacy Policy</h2>
+            <p>This Privacy Policy may be updated periodically. Any changes will be published on this page.</p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p class="company-name">Naveen Labs</p>
+            <p>For support or privacy-related inquiries, please use the contact information provided on the Google Play Store listing.</p>
+        </section>
+    </main>
+
+</body>
+</html>

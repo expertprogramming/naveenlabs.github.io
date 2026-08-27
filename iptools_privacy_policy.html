@@ -1,0 +1,63 @@
+# 🔒 IPTools Privacy Policy
+
+**Effective Date:** August 27, 2026  
+**Last Updated:** August 27, 2026  
+**Developer:** Naveen Labs (`experprogramming.org`)
+
+---
+
+## 1. Introduction & Core Privacy Commitment
+
+**IPTools** ("the Application", "we", "our") is designed as a privacy-first, professional network diagnostic and calculation suite. We believe your network telemetry, IP addresses, and hardware details belong exclusively to you. 
+
+* We do **not** sell, rent, or trade your personal data.
+* We do **not** store your scan logs, network passwords, or private IP histories on remote central servers.
+* Diagnostic operations (such as LAN scanning, port scanning, ping, and traceroute) are executed locally on your device or directly against your target servers.
+
+---
+
+## 2. Information Collected & Used
+
+### A. Network & Device Telemetry (Processed Locally)
+To provide core networking diagnostics, the app reads technical parameters directly from your device's operating system:
+* **Wi-Fi & Network State**: SSID name, BSSID, Signal Strength (dBm), Link Speed, Subnet Mask, Gateway IP, and Local IP address.
+* **Hardware & Battery Data**: Device model, CPU architecture, RAM usage, and battery temperature/voltage.
+* *Usage*: This information is processed on-device in real-time to display diagnostic metrics. It is never uploaded to any remote analytics database.
+
+### B. Location Permissions (`ACCESS_FINE_LOCATION` / `ACCESS_COARSE_LOCATION`)
+* **Why Required**: Beginning in Android 8.0 through Android 15+, Google Android OS requires Location access for applications to read the connected Wi-Fi Network Name (SSID) and BSSID.
+* **Usage**: IPTools uses this permission solely to identify the Wi-Fi network you are connected to. We do **not** track, record, or transmit your physical GPS coordinates.
+
+### C. Public IP & DNS Lookup Requests
+* **External Diagnostics**: When using tools like Public IP Lookup, GeoIP, DNS Propagation, or Speed Test:
+  - The app queries public diagnostic servers (such as M-Lab NDT7 endpoints, Cloudflare, Google DNS, and IPify).
+  - These requests transmit standard HTTP/WebSocket headers necessary to perform the requested test.
+
+---
+
+## 3. Third-Party Services & Advertising (Google AdMob)
+
+IPTools is a free-to-use application supported by Google AdMob. Third-party advertising partners may collect pseudonymous device identifiers to deliver relevant ads in accordance with Google Play policies:
+
+* **Google Mobile Ads (AdMob)**:
+  - May collect Advertising ID (AAID), coarse location, and app interaction data to serve ads.
+  - Privacy Policy: [Google Privacy & Terms](https://policies.google.com/technologies/ads)
+* **Google Play In-App Review & Core Services**:
+  - Used to handle in-app review flows and application updates.
+
+---
+
+## 4. Data Retention & Security
+
+* **Local Storage**: Preferences (such as theme selection and speed test unit configurations) are stored locally in your device's sandboxed `SharedPreferences`.
+* **No Account Required**: IPTools does not require registration, login, or email authentication.
+
+---
+
+## 5. Contact & Inquiries
+
+If you have questions, feedback, or concerns regarding this Privacy Policy, you can reach out via:
+
+* **Developer**: Naveen Labs
+* **Developer Google Play Profile**: [Naveen Labs on Google Play](https://play.google.com/store/apps/developer?id=Naveen+Labs)
+* **Email / Website**: [https://experprogramming.org](https://experprogramming.org)

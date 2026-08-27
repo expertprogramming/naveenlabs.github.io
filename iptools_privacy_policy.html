@@ -1,63 +1,185 @@
-# 🔒 IPTools Privacy Policy
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - IPTools | Naveen Labs</title>
+    <style>
+        :root {
+            --bg-color: #0A0E1A;
+            --card-bg: #121829;
+            --text-primary: #E2E8F0;
+            --text-secondary: #94A3B8;
+            --accent-cyan: #00E5FF;
+            --accent-green: #00E676;
+            --border-color: #1E293B;
+        }
 
-**Effective Date:** August 27, 2026  
-**Last Updated:** August 27, 2026  
-**Developer:** Naveen Labs (`experprogramming.org`)
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
 
----
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 24px 16px;
+        }
 
-## 1. Introduction & Core Privacy Commitment
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 36px 28px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
 
-**IPTools** ("the Application", "we", "our") is designed as a privacy-first, professional network diagnostic and calculation suite. We believe your network telemetry, IP addresses, and hardware details belong exclusively to you. 
+        .header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+            margin-bottom: 24px;
+        }
 
-* We do **not** sell, rent, or trade your personal data.
-* We do **not** store your scan logs, network passwords, or private IP histories on remote central servers.
-* Diagnostic operations (such as LAN scanning, port scanning, ping, and traceroute) are executed locally on your device or directly against your target servers.
+        .badge {
+            display: inline-block;
+            background: rgba(0, 229, 255, 0.12);
+            color: var(--accent-cyan);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+            border: 1px solid rgba(0, 229, 255, 0.3);
+        }
 
----
+        h1 {
+            font-size: 2rem;
+            color: #FFFFFF;
+            margin-bottom: 8px;
+        }
 
-## 2. Information Collected & Used
+        .meta {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
 
-### A. Network & Device Telemetry (Processed Locally)
-To provide core networking diagnostics, the app reads technical parameters directly from your device's operating system:
-* **Wi-Fi & Network State**: SSID name, BSSID, Signal Strength (dBm), Link Speed, Subnet Mask, Gateway IP, and Local IP address.
-* **Hardware & Battery Data**: Device model, CPU architecture, RAM usage, and battery temperature/voltage.
-* *Usage*: This information is processed on-device in real-time to display diagnostic metrics. It is never uploaded to any remote analytics database.
+        h2 {
+            color: var(--accent-cyan);
+            font-size: 1.25rem;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
 
-### B. Location Permissions (`ACCESS_FINE_LOCATION` / `ACCESS_COARSE_LOCATION`)
-* **Why Required**: Beginning in Android 8.0 through Android 15+, Google Android OS requires Location access for applications to read the connected Wi-Fi Network Name (SSID) and BSSID.
-* **Usage**: IPTools uses this permission solely to identify the Wi-Fi network you are connected to. We do **not** track, record, or transmit your physical GPS coordinates.
+        p {
+            color: var(--text-primary);
+            margin-bottom: 14px;
+            font-size: 0.98rem;
+        }
 
-### C. Public IP & DNS Lookup Requests
-* **External Diagnostics**: When using tools like Public IP Lookup, GeoIP, DNS Propagation, or Speed Test:
-  - The app queries public diagnostic servers (such as M-Lab NDT7 endpoints, Cloudflare, Google DNS, and IPify).
-  - These requests transmit standard HTTP/WebSocket headers necessary to perform the requested test.
+        ul {
+            margin-left: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
 
----
+        li {
+            margin-bottom: 8px;
+        }
 
-## 3. Third-Party Services & Advertising (Google AdMob)
+        .highlight-box {
+            background: rgba(0, 230, 118, 0.08);
+            border-left: 4px solid var(--accent-green);
+            padding: 16px;
+            border-radius: 0 12px 12px 0;
+            margin: 20px 0;
+        }
 
-IPTools is a free-to-use application supported by Google AdMob. Third-party advertising partners may collect pseudonymous device identifiers to deliver relevant ads in accordance with Google Play policies:
+        .highlight-box p {
+            margin-bottom: 0;
+            color: #E2E8F0;
+            font-weight: 500;
+        }
 
-* **Google Mobile Ads (AdMob)**:
-  - May collect Advertising ID (AAID), coarse location, and app interaction data to serve ads.
-  - Privacy Policy: [Google Privacy & Terms](https://policies.google.com/technologies/ads)
-* **Google Play In-App Review & Core Services**:
-  - Used to handle in-app review flows and application updates.
+        a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
 
----
+        a:hover {
+            text-decoration: underline;
+            color: #38BDF8;
+        }
 
-## 4. Data Retention & Security
+        .footer {
+            margin-top: 36px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="badge">NAVEEN LABS • SECURITY & PRIVACY</span>
+            <h1>Privacy Policy</h1>
+            <p class="meta"><strong>Application:</strong> IPTools (Android) &nbsp;|&nbsp; <strong>Effective Date:</strong> August 27, 2026</p>
+        </div>
 
-* **Local Storage**: Preferences (such as theme selection and speed test unit configurations) are stored locally in your device's sandboxed `SharedPreferences`.
-* **No Account Required**: IPTools does not require registration, login, or email authentication.
+        <div class="highlight-box">
+            <p><strong>Privacy-First Standard:</strong> IPTools does not collect personal identities, sell user data, or store private network scan logs on any external remote server. All diagnostic analysis runs directly on your device.</p>
+        </div>
 
----
+        <h2>1. Overview & Core Privacy Commitment</h2>
+        <p><strong>IPTools</strong> ("the Application", "we", "our") is built as a professional, Swiss-army-knife network diagnostic and calculation suite for Android. We respect your digital privacy and ensure that network configurations, Wi-Fi parameters, and device telemetry remain in your full control.</p>
 
-## 5. Contact & Inquiries
+        <h2>2. Data Processed Locally On-Device</h2>
+        <p>To provide real-time network and hardware diagnostics, the application reads technical OS parameters directly from your device:</p>
+        <ul>
+            <li><strong>Network Identity & State:</strong> Connected Wi-Fi SSID, BSSID, Signal Strength (dBm), Link Speed, Subnet Mask, Gateway IP, DNS Server addresses, and Local Private IP.</li>
+            <li><strong>Hardware Profile:</strong> Device model, processor architecture, RAM utilization, and battery telemetry (temperature, voltage, charge level).</li>
+        </ul>
+        <p><em>Note:</em> All the above diagnostic telemetry is processed in-memory in real time and is never transmitted to any external analytics server.</p>
 
-If you have questions, feedback, or concerns regarding this Privacy Policy, you can reach out via:
+        <h2>3. Android Operating System Permissions</h2>
+        <ul>
+            <li><strong>Location Permissions (ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION):</strong> Android 8.0 through Android 15+ strictly enforces location permission as a requirement for apps to read the connected Wi-Fi Network Name (SSID) and BSSID. IPTools uses this permission exclusively to identify your connected Wi-Fi network. <strong>We do NOT track, record, or share your physical GPS coordinates.</strong></li>
+            <li><strong>Internet Access (INTERNET & ACCESS_NETWORK_STATE):</strong> Required to perform network diagnostics such as Speed Test, Ping, DNS Propagation, Public IP lookup, and Traceroute.</li>
+        </ul>
 
-* **Developer**: Naveen Labs
-* **Developer Google Play Profile**: [Naveen Labs on Google Play](https://play.google.com/store/apps/developer?id=Naveen+Labs)
-* **Email / Website**: [https://experprogramming.org](https://experprogramming.org)
+        <h2>4. Third-Party Services & Advertising (Google AdMob)</h2>
+        <p>IPTools is a free application supported by non-intrusive advertisements served through <strong>Google AdMob</strong>. Advertising partners may process standard pseudonymous identifiers (e.g. Android Advertising ID) to deliver relevant ad content and protect against fraudulent traffic:</p>
+        <ul>
+            <li><strong>Google Mobile Ads:</strong> Subject to <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Privacy & Terms</a>.</li>
+            <li><strong>Google Play In-App Review:</strong> Handles in-app feedback dialogs natively through Google Play Services.</li>
+        </ul>
+
+        <h2>5. Data Security & Storage</h2>
+        <p>Your custom app settings (e.g. Dark/Light Theme preferences, Speed Test unit settings) are stored strictly on your local device in sandboxed storage. IPTools does not require user registration, logins, or cloud accounts.</p>
+
+        <h2>6. Developer Contact & Inquiries</h2>
+        <p>If you have any questions or feedback regarding this Privacy Policy, please contact us:</p>
+        <ul>
+            <li><strong>Developer:</strong> Naveen Labs</li>
+            <li><strong>Website:</strong> <a href="https://expertprogramming.github.io/naveenlabs.github.io/" target="_blank" rel="noopener">https://expertprogramming.github.io/naveenlabs.github.io/</a></li>
+            <li><strong>Google Play Developer Page:</strong> <a href="https://play.google.com/store/apps/developer?id=Naveen+Labs" target="_blank" rel="noopener">Naveen Labs on Google Play</a></li>
+        </ul>
+
+        <div class="footer">
+            &copy; 2026 Naveen Labs. All rights reserved. &nbsp;|&nbsp; IPTools Network Suite
+        </div>
+    </div>
+</body>
+</html>

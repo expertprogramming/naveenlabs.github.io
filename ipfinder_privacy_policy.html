@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - IPFinder</title>
+    <style>
+        :root {
+            --primary-color: #0d6efd;
+            --text-color: #333333;
+            --heading-color: #1a1a1a;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --border-color: #e9ecef;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
+        }
+        h1 {
+            color: var(--heading-color);
+            font-size: 2rem;
+            margin-bottom: 8px;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 12px;
+        }
+        h2 {
+            color: var(--heading-color);
+            font-size: 1.3rem;
+            margin-top: 30px;
+            margin-bottom: 12px;
+        }
+        p, li {
+            font-size: 1rem;
+            color: #495057;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .last-updated {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 25px;
+        }
+        .highlight-box {
+            background-color: #e7f1ff;
+            border-left: 4px solid var(--primary-color);
+            padding: 15px 20px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.85rem;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Privacy Policy</h1>
+    <div class="last-updated">Last updated: September 2, 2026</div>
+
+    <div class="highlight-box">
+        <strong>Summary:</strong> <strong>IPFinder - Device & Network Utility</strong> is committed to protecting your privacy. The application operates primarily on-device to inspect local network configuration and device parameters. <strong>We do not collect, store, sell, or transmit any personally identifiable information (PII).</strong>
+    </div>
+
+    <h2>1. Information We Collect and Process</h2>
+    <p>The app processes the following technical details solely to display device and network utilities locally on your screen:</p>
+    <ul>
+        <li><strong>Network Information:</strong> Local IP address, WiFi connection status, SSID, link speed, signal strength, and gateway details.</li>
+        <li><strong>Public IP Address & Geolocation:</strong> The application queries public IP lookups (e.g., via secure HTTPS requests to <code>ipapi.co</code> or <code>api.ipify.org</code>) to retrieve and display your public IP address and approximate city/country. This data is displayed in real-time and is <em>never</em> stored or recorded by us.</li>
+        <li><strong>Device Information:</strong> General hardware specifications (e.g., Device Model, Manufacturer, Board, Screen Density, and Android Version) read directly from Android system properties for diagnostic purposes.</li>
+        <li><strong>Bluetooth Information:</strong> Names and MAC addresses of paired Bluetooth devices, accessed locally on Android 12+ only upon explicit user request.</li>
+    </ul>
+
+    <h2>2. Permissions Used</h2>
+    <p>IPFinder requests only the minimum required Android permissions to function:</p>
+    <ul>
+        <li><code>android.permission.INTERNET</code>: Required to perform public IP lookup queries over secure HTTPS.</li>
+        <li><code>android.permission.ACCESS_NETWORK_STATE</code> & <code>android.permission.ACCESS_WIFI_STATE</code>: Required to determine network connectivity status (WiFi vs Mobile Data) and local IP configuration.</li>
+        <li><code>android.permission.BLUETOOTH_CONNECT</code>: Requested on-demand on Android 12 (API 31)+ solely when viewing paired Bluetooth devices.</li>
+    </ul>
+
+    <h2>3. Advertising and Analytics</h2>
+    <p>This application is <strong>100% ad-free</strong>. It contains no third-party advertising SDKs (such as Google AdMob or Facebook Audience Network) and no background tracking or user behavior analytics tools.</p>
+
+    <h2>4. Data Sharing and Third Parties</h2>
+    <p>We do not share, sell, rent, or trade your data with any third party. The only external network communications made by the app are standard HTTPS requests to public IP lookup services to display your current external IP address.</p>
+
+    <h2>5. Data Retention and Deletion</h2>
+    <p>Because the app does not store or transmit any personal data to developer-owned servers, there is no personal data retained. Any technical data retrieved during runtime resides strictly in transient memory on your local device and is cleared upon closing the app.</p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>IPFinder does not knowingly collect or solicit personal information from children under the age of 13. The application is a general-purpose network diagnostic utility suitable for all users.</p>
+
+    <h2>7. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy periodically. Any changes will be posted directly on this page with an updated "Last updated" date.</p>
+
+    <h2>8. Contact Us</h2>
+    <p>If you have any questions, concerns, or feedback regarding this Privacy Policy, please contact us at:</p>
+    <ul>
+        <li><strong>Email:</strong> expertprogramming.org@gmail.com</li>
+        <li><strong>Website:</strong> <a href="https://experprogramming.org" target="_blank" rel="noopener">https://experprogramming.org</a></li>
+    </ul>
+
+    <footer>
+        &copy; 2026 Expert Programming. All rights reserved.
+    </footer>
+</div>
+
+</body>
+</html>
